@@ -174,13 +174,13 @@ body.show-en .en-inline{display:inline!important}
 <div class="section-icon icon-o">①</div>
 <div class="de">
 <h2>Worum geht es?</h2>
-<p>Dieses Forschungsprojekt ist Teil einer Masterarbeit, die ein KI-System entwickelt, das erkennt, ob sich Radfahrende im Straßenverkehr <strong>sicher</strong> oder <strong>gefährlich</strong> verhalten — aus der Perspektive eines autonomen Fahrzeugs.</p>
-<p>Dazu filmen wir mit einer Dashcam-ähnlichen Kamera (GoPro Hero 12, montiert hinter der Windschutzscheibe) in vier Berliner Bezirken. Die Aufnahmen werden verwendet, um Körperhaltungsdaten zu extrahieren — <strong>17 abstrakte Gelenkpunkte</strong> des menschlichen Skeletts — die dann von Graph Neural Networks analysiert werden.</p>
+<p>Dieses Forschungsprojekt ist Teil einer Masterarbeit, die ein KI-System entwickelt, das erkennt, ob sich Radfahrende im Straßenverkehr <strong>sicher</strong> oder <strong>gefährlich</strong> verhalten - aus der Perspektive eines autonomen Fahrzeugs.</p>
+<p>Dazu filmen wir mit einer Dashcam-ähnlichen Kamera (GoPro Hero 12, montiert hinter der Windschutzscheibe) in vier Berliner Bezirken. Die Aufnahmen werden verwendet, um Körperhaltungsdaten zu extrahieren - <strong>17 abstrakte Gelenkpunkte</strong> des menschlichen Skeletts - die dann von Graph Neural Networks analysiert werden.</p>
 </div>
 <div class="en">
 <h2>What is this about?</h2>
-<p>This research project is part of a master's thesis developing an AI system that recognises whether cyclists in traffic are behaving <strong>safely</strong> or <strong>dangerously</strong> — from the perspective of an autonomous vehicle.</p>
-<p>We record using a dashcam-style camera (GoPro Hero 12, mounted inside the windscreen) across four Berlin districts. The footage is used to extract body pose data — <strong>17 abstract skeletal joint points</strong> — which are then analysed by Graph Neural Networks.</p>
+<p>This research project is part of a master's thesis developing an AI system that recognises whether cyclists in traffic are behaving <strong>safely</strong> or <strong>dangerously</strong> - from the perspective of an autonomous vehicle.</p>
+<p>We record using a dashcam-style camera (GoPro Hero 12, mounted inside the windscreen) across four Berlin districts. The footage is used to extract body pose data - <strong>17 abstract skeletal joint points</strong> - which are then analysed by Graph Neural Networks.</p>
 </div>
 </div>
 
@@ -201,9 +201,9 @@ body.show-en .en-inline{display:inline!important}
 <div class="card red">
 <div class="card-title">Was NICHT aufgenommen wird</div>
 <ul class="check cross">
-<li>Kein Ton — Audioaufnahme ist dauerhaft deaktiviert</li>
-<li>Keine Gesichter — werden automatisch unkenntlich gemacht</li>
-<li>Keine Kennzeichen — werden automatisch unkenntlich gemacht</li>
+<li>Kein Ton - Audioaufnahme ist dauerhaft deaktiviert</li>
+<li>Keine Gesichter - werden automatisch unkenntlich gemacht</li>
+<li>Keine Kennzeichen - werden automatisch unkenntlich gemacht</li>
 <li>Keine GPS-Daten einzelner Personen</li>
 <li>Keine persönlichen Daten (Telefon, E-Mail, Namen)</li>
 </ul>
@@ -223,9 +223,9 @@ body.show-en .en-inline{display:inline!important}
 <div class="card red">
 <div class="card-title">What is NOT recorded</div>
 <ul class="check cross">
-<li>No audio — audio recording is permanently disabled</li>
-<li>No faces — automatically blurred before any analysis</li>
-<li>No license plates — automatically blurred before any analysis</li>
+<li>No audio - audio recording is permanently disabled</li>
+<li>No faces - automatically blurred before any analysis</li>
+<li>No license plates - automatically blurred before any analysis</li>
 <li>No GPS coordinates of individuals</li>
 <li>No personal details (phone, email, names)</li>
 </ul>
@@ -261,8 +261,8 @@ body.show-en .en-inline{display:inline!important}
 <div class="de">
 <p style="font-weight:600;color:var(--dark);margin-bottom:12px">So verarbeiten wir die Aufnahmen:</p>
 <div class="steps">
-<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Gesichtserkennung & Unkenntlichmachung</strong><span>Ein KI-Detektor (YOLOv8-face) erkennt alle Gesichter in jedem Einzelbild. Ein starker Weichzeichner wird angewendet — keine Person ist erkennbar.</span></div></div>
-<div class="step"><div class="step-num">2</div><div class="step-text"><strong>Kennzeichenerkennung & Unkenntlichmachung</strong><span>OpenALPR erkennt alle Kennzeichen — Kfz, Fahrrad, Lastenrad, Anhänger. Derselbe Weichzeichner wird angewendet.</span></div></div>
+<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Gesichtserkennung & Unkenntlichmachung</strong><span>Ein KI-Detektor (YOLOv8-face) erkennt alle Gesichter in jedem Einzelbild. Ein starker Weichzeichner wird angewendet - keine Person ist erkennbar.</span></div></div>
+<div class="step"><div class="step-num">2</div><div class="step-text"><strong>Kennzeichenerkennung & Unkenntlichmachung</strong><span>OpenALPR erkennt alle Kennzeichen - Kfz, Fahrrad, Lastenrad, Anhänger. Derselbe Weichzeichner wird angewendet.</span></div></div>
 <div class="step"><div class="step-num">3</div><div class="step-text"><strong>Manuelle Prüfung</strong><span>50 Clips pro Sitzung werden manuell überprüft. Übersehene Fälle werden vor der Auswertung manuell unkenntlich gemacht.</span></div></div>
 <div class="step"><div class="step-num">4</div><div class="step-text"><strong>Löschung der Rohdaten</strong><span>Rohaufnahmen werden noch am selben Tag sicher überschrieben (nicht nur gelöscht). Spätester Termin: 30. September 2026.</span></div></div>
 </div>
@@ -270,8 +270,8 @@ body.show-en .en-inline{display:inline!important}
 <div class="en">
 <p style="font-weight:600;color:var(--dark);margin-bottom:12px">How we process the recordings:</p>
 <div class="steps">
-<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Face detection & blurring</strong><span>An AI detector (YOLOv8-face) identifies all faces in every frame. A strong blur is applied — no individual can be recognised.</span></div></div>
-<div class="step"><div class="step-num">2</div><div class="step-text"><strong>License plate detection & blurring</strong><span>OpenALPR detects all plates — cars, bicycles, cargo bikes, trailers. The same blur is applied.</span></div></div>
+<div class="step"><div class="step-num">1</div><div class="step-text"><strong>Face detection & blurring</strong><span>An AI detector (YOLOv8-face) identifies all faces in every frame. A strong blur is applied - no individual can be recognised.</span></div></div>
+<div class="step"><div class="step-num">2</div><div class="step-text"><strong>License plate detection & blurring</strong><span>OpenALPR detects all plates - cars, bicycles, cargo bikes, trailers. The same blur is applied.</span></div></div>
 <div class="step"><div class="step-num">3</div><div class="step-text"><strong>Manual validation</strong><span>50 clips per session are manually reviewed. Any missed instances are blurred manually before annotation.</span></div></div>
 <div class="step"><div class="step-num">4</div><div class="step-text"><strong>Raw footage deletion</strong><span>Raw footage is securely overwritten (not merely deleted) the same day. Hard deadline: 30 September 2026.</span></div></div>
 </div>
@@ -301,7 +301,7 @@ body.show-en .en-inline{display:inline!important}
 <div class="form-group">
 <label class="form-label"><span class="de-inline">Bezirk *</span><span class="en-inline">District *</span></label>
 <select name="location" class="form-select" required>
-<option value="" disabled selected>—</option>
+<option value="" disabled selected>-</option>
 <option value="Kreuzberg">Kreuzberg</option>
 <option value="Prenzlauer Berg">Prenzlauer Berg</option>
 <option value="Mitte">Mitte</option>
@@ -352,7 +352,7 @@ body.show-en .en-inline{display:inline!important}
 <div class="contact-item">
 <div class="contact-label"><span class="de-inline">Projektkontakt</span><span class="en-inline">Project Contact</span></div>
 <div class="contact-name">Sujay Krishnamurthy Somayaji</div>
-<div class="contact-role">M.Eng. ESTM — SRH Berlin University of Applied Sciences</div>
+<div class="contact-role">M.Eng. ESTM - SRH Berlin University of Applied Sciences</div>
 <a class="contact-email" href="mailto:cyclist-study@srh-university.de">cyclist-study@srh-university.de</a>
 <div class="contact-role" style="margin-top:4px;font-size:11px;color:var(--light)">
 <span class="de-inline">(bleibt auch nach Projektende erreichbar)</span>
@@ -381,8 +381,8 @@ body.show-en .en-inline{display:inline!important}
 <span class="arrow">▼</span>
 </button>
 <div class="acc-body"><div class="acc-content">
-<div class="de"><p><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin, Deutschland<br>Masterarbeit im Studiengang ESTM — Mobilität und Automobilindustrie<br><strong>Betreuer:</strong> Dr. Hamid Mostofi Darbani<br><strong>Programmleiter:</strong> Prof. Dr. Frank Wolter</p></div>
-<div class="en"><p><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin, Germany<br>Master's thesis, ESTM — Mobility and Automotive Industry<br><strong>Supervisor:</strong> Dr. Hamid Mostofi Darbani<br><strong>Programme Head:</strong> Prof. Dr. Frank Wolter</p></div>
+<div class="de"><p><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin, Deutschland<br>Masterarbeit im Studiengang ESTM - Mobilität und Automobilindustrie<br><strong>Betreuer:</strong> Dr. Hamid Mostofi Darbani<br><strong>Programmleiter:</strong> Prof. Dr. Frank Wolter</p></div>
+<div class="en"><p><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin, Germany<br>Master's thesis, ESTM - Mobility and Automotive Industry<br><strong>Supervisor:</strong> Dr. Hamid Mostofi Darbani<br><strong>Programme Head:</strong> Prof. Dr. Frank Wolter</p></div>
 </div></div>
 
 <!-- Legal basis -->
@@ -391,8 +391,8 @@ body.show-en .en-inline{display:inline!important}
 <span class="arrow">▼</span>
 </button>
 <div class="acc-body"><div class="acc-content">
-<div class="de"><p><strong>DSGVO Art. 6 Abs. 1 lit. f</strong> — Berechtigte Interessen des Verantwortlichen, in Verbindung mit <strong>Art. 89 DSGVO</strong> und <strong>BDSG §27</strong>.</p><p>Eine Interessenabwägung (LIA) und eine Datenschutz-Folgenabschätzung (DPIA) wurden durchgeführt und vom externen Datenschutzbeauftragten am 27. Mai 2026 genehmigt.</p></div>
-<div class="en"><p><strong>GDPR Article 6(1)(f)</strong> — Legitimate interests of the controller, in conjunction with <strong>GDPR Article 89</strong> and <strong>BDSG §27</strong>.</p><p>A Legitimate Interest Assessment (LIA) and a Data Protection Impact Assessment (DPIA) have been conducted and approved by the external DPO on 27 May 2026.</p></div>
+<div class="de"><p><strong>DSGVO Art. 6 Abs. 1 lit. f</strong> - Berechtigte Interessen des Verantwortlichen, in Verbindung mit <strong>Art. 89 DSGVO</strong> und <strong>BDSG §27</strong>.</p><p>Eine Interessenabwägung (LIA) und eine Datenschutz-Folgenabschätzung (DPIA) wurden durchgeführt und vom externen Datenschutzbeauftragten am 27. Mai 2026 genehmigt.</p></div>
+<div class="en"><p><strong>GDPR Article 6(1)(f)</strong> - Legitimate interests of the controller, in conjunction with <strong>GDPR Article 89</strong> and <strong>BDSG §27</strong>.</p><p>A Legitimate Interest Assessment (LIA) and a Data Protection Impact Assessment (DPIA) have been conducted and approved by the external DPO on 27 May 2026.</p></div>
 </div></div>
 
 <!-- Retention -->
@@ -451,8 +451,8 @@ body.show-en .en-inline{display:inline!important}
 <!-- ── FOOTER ── -->
 <footer class="footer">
 <div class="wrap">
-<div class="de"><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin · ESTM — Mobilität und Automobilindustrie<br>Letzte Aktualisierung: Juni 2026 · v2.0</div>
-<div class="en"><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin · ESTM — Mobility and Automotive Industry<br>Last updated: June 2026 · v2.0</div>
+<div class="de"><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin · ESTM - Mobilität und Automobilindustrie<br>Letzte Aktualisierung: Juni 2026 · v2.0</div>
+<div class="en"><strong>SRH Hochschulen GmbH / SRH Berlin University of Applied Sciences</strong><br>Sonnenallee 221, 12059 Berlin · ESTM - Mobility and Automotive Industry<br>Last updated: June 2026 · v2.0</div>
 </div>
 </footer>
 
@@ -460,7 +460,7 @@ body.show-en .en-inline{display:inline!important}
 <div class="toast" id="toast"></div>
 
 <script>
-// Language switcher — works on both click and touch
+// Language switcher - works on both click and touch
 function setLang(lang){
   document.body.className='show-'+lang;
   document.getElementById('btn-de').classList.toggle('active',lang==='de');
@@ -488,7 +488,7 @@ function toggleAcc(btn){
   body.classList.toggle('open',isOpen);
 }
 
-// Form submission — reliable mobile mailto via hidden anchor
+// Form submission - reliable mobile mailto via hidden anchor
 function handleSubmit(e){
   e.preventDefault();
   const form=e.target;
@@ -503,8 +503,8 @@ function handleSubmit(e){
   const desc=data.get('description')||'(none)';
 
   const subject=encodeURIComponent(lang==='de'
-    ?'Löschungsantrag — Forschungsaufnahme Verkehrssicherheit'
-    :'Deletion Request — Cyclist Safety Research Recording');
+    ?'Löschungsantrag - Forschungsaufnahme Verkehrssicherheit'
+    :'Deletion Request - Cyclist Safety Research Recording');
 
   const bodyText=lang==='de'
     ?`Löschungsantrag\n\nName: ${name}\nE-Mail: ${email}\nBezirk: ${location}\nDatum: ${date}\nUhrzeit: ${time}\nBeschreibung: ${desc}\n\n---\nDiese Nachricht wurde über das Kontaktformular der Forschungswebseite gesendet.`
